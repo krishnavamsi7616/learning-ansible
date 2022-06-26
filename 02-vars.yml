@@ -32,7 +32,7 @@
 
     - name: Storing the data in a variable
       ansible.builtin.set_fact:
-      UPTIME: "{{output}}"
+      UPTIME: "{{output.stdout}}"
 
 
     - name: Print Output of the command
