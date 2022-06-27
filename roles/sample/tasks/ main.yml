@@ -4,7 +4,7 @@
     dest: /tmp/sample-file.txt
 
 
-    
+
 - name: Template a file
   ansible.builtin.template:
     src: sample.txt
